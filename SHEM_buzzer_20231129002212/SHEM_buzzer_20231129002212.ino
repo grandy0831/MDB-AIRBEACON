@@ -3,6 +3,7 @@
 #include <Adafruit_NeoPixel.h>  // Include library for controlling NeoPixels
 #include <Adafruit_GFX.h>  // Include Adafruit Graphics library for graphical functions
 #include <Adafruit_SSD1306.h>  // Include library for OLED display
+#include <MQ135.h>
 
 #define NEOPIXEL_PIN 6  // Define the pin for NeoPixels
 #define NUMPIXELS    8  // Number of pixels in the NeoPixel strip
@@ -12,7 +13,8 @@ Adafruit_NeoPixel pixels(NUMPIXELS, NEOPIXEL_PIN, NEO_GRB + NEO_KHZ800); // Init
 Adafruit_SSD1306 display(128, 64, &Wire, OLED_RESET); // Initialize OLED display
 
 SCD30 airSensor; // Create an instance of the SCD30 sensor
-int mq135SensorPin = A0; // Pin for the MQ-135 air quality sensor
+const int MQ135_SENSOR_PIN = A0; // Connect the analog output pin of MQ-135 to Arduino's A0 pin
+MQ135 gasSensor = MQ135(MQ135_SENSOR_PIN);
 int buzzerPin = 8; // Pin for the buzzer
 
 void setup() {
@@ -20,6 +22,7 @@ void setup() {
   Serial.begin(9600);  // Begin serial communication at 9600 baud rate
   pixels.begin();  // Initialize NeoPixel strip
   pinMode(buzzerPin, OUTPUT); // Set buzzer pin as an output
+  pixels.setBrightness(20);
 
   // Initialize OLED display
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C); 
@@ -42,8 +45,9 @@ void loop() {
     int co2 = airSensor.getCO2(); // Get CO2 reading
     float temperature = airSensor.getTemperature(); // Get temperature reading
     float humidity = airSensor.getHumidity(); // Get humidity reading
-    int mq135SensorValue = analogRead(mq135SensorPin); // Read MQ-135 sensor value
-    String airQualityStatus = mq135SensorValue > 200 ? "BAD" : "GOOD"; // Determine air quality
+    int sensorValue = analogRead(MQ135_SENSOR_PIN);
+    float ppm = gasSensor.getPPM(); 
+    String airQualityStatus = sensorValue > 100 ? "BAD" : "GOOD"; // Determine air quality
 
     // Update OLED display with sensor readings
     display.clearDisplay();
@@ -69,10 +73,10 @@ void loop() {
     Serial.print(" Humidity(%): ");
     Serial.println(humidity, 1);
     Serial.print("Air Quality : ");
-    Serial.println(mq135SensorValue);
+    Serial.println(sensorValue);
 
-    // Change NeoPixel color and activate buzzer based on CO2 level
-    if (co2 >= 1000) {
+    // Change NeoPixel color and activate buzzer based on CO2 level or Air Quality
+    if (co2 >= 1000 || sensorValue > 100) {
         blinkRed(); // Activate red LEDs
         tone(buzzerPin, 3000); // Activate buzzer
         delay(500);            // Continue for 500 milliseconds
@@ -87,7 +91,6 @@ void loop() {
 }
 
 // Function to blink NeoPixels red
-// Function to blink NeoPixels red without delay
 void blinkRed() {
   for (int i = 0; i < NUMPIXELS; i++) {
     pixels.setPixelColor(i, pixels.Color(255, 0, 0));
