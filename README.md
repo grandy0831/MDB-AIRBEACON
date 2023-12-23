@@ -20,3 +20,5 @@ AirBeacon is an indoor environment monitoring system designed to continuously mo
    - Arduino UNO: Serves as the main controller.
    - OLED Display: Used for displaying environmental data.
    - LED Lights and Buzzer: Used for the warning system.
+     
+2. **Circuit Connection**:
