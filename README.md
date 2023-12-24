@@ -120,6 +120,20 @@ This section of the README explains the implementation details for each componen
   ![CO2 Indicator red](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/2e9138fc-b66a-42cb-9a37-bb06c5875230)
   ![CO2 Indicator](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/7006d507-12da-4ed3-a46e-3b7746c4adc3)
 
+#### 4. OLED Display:
+   - **Functionality**: Displays environmental data using the `Adafruit_GFX` and `Adafruit_SSD1306` libraries.
+   - **Code Snippet**:
+     ```cpp
+      display.clearDisplay();
+      display.setCursor(0,0);
+      display.print("CO2: ");
+      display.print(co2);
+   A complete working example of the code is [available here on GitHub](https://github.com/grandy0831/MDB-AIRBEACON/tree/main/SHEM).
+   - **Circuit Connection**: OLED display is connected to the Arduino through I2C (A4 for SDA, A5 for SCL).
+   - **Illustration**:
+  <br><br>
+  ![SHEM](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/9e701bef-3987-4b46-9756-f968b418ab77)
+ 
 #### 5. Buzzer:
    - **Functionality**: Emits an audible alert when CO2 or air quality exceeds thresholds.
    - **Code Snippet**:
