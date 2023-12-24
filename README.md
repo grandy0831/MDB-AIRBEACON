@@ -165,6 +165,54 @@ This section of the README explains the implementation details for each componen
 ![截屏2023-12-24 03 31 04](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/f79407ec-786b-49ce-a702-e0c0118efae5)<br>
 [AQI bands, with health advice for each](https://en.wikipedia.org/wiki/Air_quality_index).
 
+## Testing and Validation
+
+To ensure that your AirBeacon device is functioning correctly and providing accurate environmental readings, follow these steps to test and validate the performance of the sensors and indicators:
+
+### Sensor Calibration
+
+#### SCD-30 CO2 Sensor Calibration
+The SCD-30 sensor features an automatic self-calibration routine. For best accuracy, the following measures are recommended:
+- Allow the sensor to run continuously for at least 7 days.
+- Ensure the sensor is exposed to fresh air for a minimum of 1 hour each day during this period.
+This process allows the SCD-30 to adjust its readings based on a known fresh air baseline and ensures ongoing accuracy.
+
+#### MQ-135 Air Quality Sensor Calibration
+
+For accurate air quality measurements, the MQ-135 sensor requires consideration of several environmental and operational factors:
+
+- **Environmental Sensitivity**: The MQ135 is sensitive to environmental conditions such as temperature and humidity. To ensure accuracy, avoid using the sensor in extreme temperature and humidity conditions.
+
+- **Preheating Time**: Prior to initial use, the MQ135 sensor needs a preheating time of 15-30 minutes to stabilize its output readings.
+
+- **Regular Calibration**: Over time, the sensitivity of the MQ135 sensor may drift. Regular calibration is recommended to maintain measurement accuracy.
+
+- **Power Supply Voltage**: The MQ135 sensor requires a 5V power supply. Ensure that when connecting to an Arduino or similar devices, the power source matches this requirement and is stable to avoid inaccurate readings or potential sensor damage.
+
+Follow these guidelines to ensure that the MQ135 sensor provides reliable data for your AirBeacon system.
+
+
+### Testing Environmental Response and System Alerts
+
+#### CO2 Level Changes with Exhaled Breath
+
+- **Test Procedure**: To test the SCD-30 sensor's CO2 detection capabilities, gently exhale towards the sensor to introduce a rise in CO2 levels. Monitor the readings for an increase, which should trigger the corresponding alert systems if set thresholds are exceeded.
+
+- **Video Demonstration**: https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/c1a52855-8296-40af-b959-0d3acae59b36
+
+- **Video Description**: The video demonstrates how exhaling towards the SCD-30 sensor causes a noticeable increase in CO2 readings, observable on the OLED display. It showcases how the CO2 concentration rises above 1000 PPM, at which point the system's LED changes from green to red, and the buzzer sounds an alarm. This confirms the effective monitoring of CO2 levels by the AirBeacon system.
+
+
+#### Air Quality Variations with Alcohol
+- For assessing the MQ-135 sensor's response to changes in air quality, introduce a controlled amount of alcohol vapor near the sensor. Alcohol is known to affect air quality readings, and this should result in the sensor picking up changes in the air composition. Use only a small amount to ensure safety and sensor integrity.
+
+#### LED Indicators and Buzzer Alarm
+- Simulate poor air quality conditions or high CO2 levels to trigger the LED indicators. Verify that the color and pattern of the LEDs match the predefined alert levels.
+- The buzzer should activate under the same test conditions if the air quality deteriorates beyond the set threshold. Check for an audible alarm to confirm the buzzer's functionality.
+
+By conducting these tests, you can ensure that both the environmental sensors and the alert systems of the AirBeacon are working in tandem and responding appropriately to changes in air quality and CO2 levels.
+
+
 ## Future Enhancements
 
 The following are proposed enhancements to improve the functionality and user experience of the AirBeacon project:
