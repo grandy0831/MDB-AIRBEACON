@@ -95,22 +95,22 @@ This section of the README explains the implementation details for each componen
           setGreen();
       }
    <br>
-   
-   ```cpp
-     void blinkRed() {
-     for (int i = 0; i < NUMPIXELS; i++) {
-       pixels.setPixelColor(i, pixels.Color(255, 0, 0)); // Set LEDs to red
-     }
-     pixels.show(); 
-     delay(1000); 
-     pixels.clear(); 
-     pixels.show(); 
-     delay(10); 
-   }
-   
-   void setGreen() {
-     for (int i = 0; i < NUMPIXELS; i++) {
-       pixels.setPixelColor(i, pixels.Color(0, 255, 0)); 
-     }
-     pixels.show(); 
-   }
+      ```cpp
+      
+        void blinkRed() {
+        for (int i = 0; i < NUMPIXELS; i++) {
+          pixels.setPixelColor(i, pixels.Color(255, 0, 0)); // Set LEDs to red
+        }
+        pixels.show(); 
+        delay(1000); 
+        pixels.clear(); 
+        pixels.show(); 
+        delay(10); 
+      }
+      
+      void setGreen() {
+        for (int i = 0; i < NUMPIXELS; i++) {
+          pixels.setPixelColor(i, pixels.Color(0, 255, 0)); 
+        }
+        pixels.show(); 
+      }
