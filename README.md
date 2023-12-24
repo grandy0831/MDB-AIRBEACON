@@ -25,3 +25,9 @@ AirBeacon is an indoor environment monitoring system designed to continuously mo
    - <b>LED Lights and Buzzer</b>: Used for the warning system.
      
 2. **Circuit Connection**:
+   - Connect the SCD-30 and MQ-135 sensors to the appropriate pins of the Arduino UNO. 
+   - Connect the OLED display to the Arduino, ensuring the communication interface (I2C) matches.
+   - Connect the LED lights and buzzer to the Arduino, setting the appropriate output pins.
+   <br><br>
+<img width="1496" alt="Circuit Connection" src="https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/b471bb69-bd35-496a-a039-8694aa28ec27">
+
