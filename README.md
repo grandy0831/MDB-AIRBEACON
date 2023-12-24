@@ -70,4 +70,5 @@ This section of the README explains the implementation details for each componen
    - **Illustration**:
     <br><br>
 ![Air quality sensor](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/a40ad46a-e824-4fd5-a306-84c1abaab3f2)
-<img width="1259" alt="CO2 sensor" src="https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/a8a816a0-3f6a-47ff-b4b0-b323d647c95e">
+![Air quality sensor](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/35647c7a-d502-4d9d-9b9a-f0cfe5af1405)
+
