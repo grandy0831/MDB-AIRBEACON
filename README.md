@@ -83,6 +83,7 @@ This section of the README explains the implementation details for each componen
    - **Circuit Connection**: The MQ-135 sensor's analog output is connected to the Arduino's A0 pin.
    - **Illustration**:
   <br><br>
+  ![Air quality sensor_bb](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/915f76db-d69e-4b8f-9dd2-883ba06b5fbc)
   ![Air quality sensor](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/defef883-4890-49e0-9b42-f728dae3a0e4)
   ![Air quality sensor](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/4829956c-aa59-4f30-810c-9a67e385e632)
 
