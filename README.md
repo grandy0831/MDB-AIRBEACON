@@ -30,7 +30,7 @@ AirBeacon is an indoor environment monitoring system designed to continuously mo
    - Connect the LED lights and buzzer to the Arduino, setting the appropriate output pins.
    <br><br>
 <img width="1496" alt="Circuit Connection" src="https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/b471bb69-bd35-496a-a039-8694aa28ec27">
-<br>
+<br><br>
 
 3. **Enclosure and Installation**:
    - Design a suitable enclosure to house all electronic components while ensuring ventilation and sensor exposure.
