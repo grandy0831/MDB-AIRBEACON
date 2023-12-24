@@ -69,6 +69,7 @@ This section of the README explains the implementation details for each componen
    - **Circuit Connection**: The SCD-30 sensor is connected to the Arduino's I2C ports (A4 for SDA, A5 for SCL).
    - **Illustration**:
     <br><br>
+    ![SCD--30_bb](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/73e6a49f-d5f8-4320-b96a-a2a0ac6b0cc2)
     ![CO2 sensor](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/6a3a122f-6bc7-4bfe-8e6f-0fef0d9ecde9)
     ![CO2 sensor](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/e3a1ff7e-e53a-47a0-bff0-1d29903495fc)
 
