@@ -200,17 +200,22 @@ Follow these guidelines to ensure that the MQ135 sensor provides reliable data f
 
 - **Video Demonstration**: [Watch the CO2 Detection Test Video](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/c1a52855-8296-40af-b959-0d3acae59b36)
 
-- **Video Description**: The video demonstrates how exhaling towards the SCD-30 sensor causes a noticeable increase in CO2 readings, observable on the OLED display. It showcases how the CO2 concentration rises above 1000 PPM, at which point the system's LED changes from green to red, and the buzzer sounds an alarm. This confirms the effective monitoring of CO2 levels by the AirBeacon system.
-
+  **Video Description**: The video demonstrates how exhaling towards the SCD-30 sensor causes a noticeable increase in CO2 readings, observable on the OLED display. It showcases how the CO2 concentration rises above 1000 PPM, at which point the system's LED changes from green to red, and the buzzer sounds an alarm. This confirms the effective monitoring of CO2 levels by the AirBeacon system.
 
 #### Air Quality Variations with Alcohol
-- For assessing the MQ-135 sensor's response to changes in air quality, introduce a controlled amount of alcohol vapor near the sensor. Alcohol is known to affect air quality readings, and this should result in the sensor picking up changes in the air composition. Use only a small amount to ensure safety and sensor integrity.
+
+- **Test Procedure**: To assess the MQ-135 sensor's response to changes in air quality, carefully introduce a controlled amount of alcohol vapor near the sensor. Alcohol significantly affects air quality readings, so this should result in the sensor detecting changes in air composition. Ensure only a small amount is used for safety and to maintain sensor integrity.
+
+- **Video Demonstration**: [Watch the Air Quality Test Video](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/1435f792-8736-489b-9edc-dda387a0df8e
+)
+
+  **Video Description**: The video illustrates the MQ-135 sensor's response when exposed to alcohol vapors. As the alcohol concentration exceeds the predefined threshold, the OLED display's air quality indicator changes from "GOOD" to "BAD." Simultaneously, the system's LED indicator shifts from green to red, and the buzzer sounds an alarm. This confirms the effective monitoring of air quality changes by the AirBeacon system.
 
 #### LED Indicators and Buzzer Alarm
 - Simulate poor air quality conditions or high CO2 levels to trigger the LED indicators. Verify that the color and pattern of the LEDs match the predefined alert levels.
 - The buzzer should activate under the same test conditions if the air quality deteriorates beyond the set threshold. Check for an audible alarm to confirm the buzzer's functionality.
 
-By conducting these tests, you can ensure that both the environmental sensors and the alert systems of the AirBeacon are working in tandem and responding appropriately to changes in air quality and CO2 levels.
+By conducting these tests, you can ensure that the environmental sensors and AirBeacon's alert system are working together and responding appropriately to changes in air quality and carbon dioxide levels.
 
 
 ## Future Enhancements
