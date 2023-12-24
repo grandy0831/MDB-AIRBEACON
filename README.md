@@ -73,7 +73,7 @@ This section of the README explains the implementation details for each componen
     ![CO2 sensor](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/e3a1ff7e-e53a-47a0-bff0-1d29903495fc)
 
 #### 2. Air Quality Sensor (MQ-135):
-   - **Functionality**: Reads air quality indices using the MQ135.h library.
+   - **Functionality**: Reads air quality indices using the `MQ135.h library`.
    - **Code Snippet**:
      ```cpp
      int sensorValue = analogRead(MQ135_SENSOR_PIN);
@@ -84,3 +84,33 @@ This section of the README explains the implementation details for each componen
   <br><br>
   ![Air quality sensor](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/defef883-4890-49e0-9b42-f728dae3a0e4)
   ![Air quality sensor](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/4829956c-aa59-4f30-810c-9a67e385e632)
+
+#### 3. LEDs (NeoPixel):
+   - **Functionality**: Controls NeoPixel LEDs to display air quality status using the `Adafruit_NeoPixel` library.
+   - **Code Snippet**:
+     ```cpp
+     if (co2 >= 1000 || sensorValue > 100) {
+          blinkRed();
+      } else {
+          setGreen();
+      }
+   <br>
+   
+   ```cpp
+     void blinkRed() {
+     for (int i = 0; i < NUMPIXELS; i++) {
+       pixels.setPixelColor(i, pixels.Color(255, 0, 0)); // Set LEDs to red
+     }
+     pixels.show(); 
+     delay(1000); 
+     pixels.clear(); 
+     pixels.show(); 
+     delay(10); 
+   }
+   
+   void setGreen() {
+     for (int i = 0; i < NUMPIXELS; i++) {
+       pixels.setPixelColor(i, pixels.Color(0, 255, 0)); 
+     }
+     pixels.show(); 
+   }
