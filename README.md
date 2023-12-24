@@ -164,3 +164,13 @@ This section of the README explains the implementation details for each componen
   <br><br>
 ![截屏2023-12-24 03 31 04](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/f79407ec-786b-49ce-a702-e0c0118efae5)<br>
 [AQI bands, with health advice for each](https://en.wikipedia.org/wiki/Air_quality_index).
+
+## Future Enhancements
+
+The following are proposed enhancements to improve the functionality and user experience of the AirBeacon project:
+
+- **Button to Stop Buzzer**: Integrate a physical button to silence the continuous buzzer alarm. This will allow users to acknowledge an alert and mute the buzzer without having to power down the entire system.
+
+- **Wireless Connectivity**: Implement wireless connectivity options such as Wi-Fi or Bluetooth to enable remote monitoring of air quality data. This feature would allow users to receive updates and alerts on their mobile devices or computers, enhancing the usability of the AirBeacon system for smart home applications or office settings.
+
+These enhancements aim to make the AirBeacon more interactive and user-friendly, while also extending its capabilities for remote air quality management.
