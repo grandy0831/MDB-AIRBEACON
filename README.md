@@ -148,3 +148,6 @@ This section of the README explains the implementation details for each componen
      }
    A complete working example of the code is [available here on GitHub](https://github.com/grandy0831/MDB-AIRBEACON/tree/main/SHEM_buzzer_20231129002212).
    - **Circuit Connection**: The buzzer is connected to the Arduino's digital pin 8.
+   - **Illustration**:
+  <br><br>
+ ![Circuit Connection](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/824c53e0-642c-4098-b058-3b8852e438f0)
