@@ -159,5 +159,5 @@ This section of the README explains the implementation details for each componen
    - **When thresholds are exceeded, the NeoPixels blink red, and the buzzer is activated.**
    - **Under normal conditions, the NeoPixels are set to green, and the buzzer remains off.**
   <br><br>
-![截屏2023-12-24 03 17 53](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/9a13f921-cfec-4b9e-829a-89a1bf0ad700)<br><br>
-[Indoor Carbon Dioxide Levels and Your Health](https://www.indoordoctor.com/blog/indoor-carbon-dioxide-levels-health/#:~:text=Carbon%20Dioxide%20Levels%20and%20Your,and%20stagnant%2C%20stale%2C%20stuffy%20air).
+![截屏2023-12-24 03 17 53](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/9a13f921-cfec-4b9e-829a-89a1bf0ad700)<br>
+<div align="center">（[Indoor Carbon Dioxide Levels and Your Health](https://www.indoordoctor.com/blog/indoor-carbon-dioxide-levels-health/#:~:text=Carbon%20Dioxide%20Levels%20and%20Your,and%20stagnant%2C%20stale%2C%20stuffy%20air).</div>
