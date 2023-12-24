@@ -68,5 +68,6 @@ This section of the README explains the implementation details for each componen
    A complete working example of the code is [available here on GitHub](https://github.com/grandy0831/MDB-AIRBEACON/tree/main/CO2_SENSOR).
    - **Circuit Connection**: The SCD-30 sensor is connected to the Arduino's I2C ports (A4 for SDA, A5 for SCL).
    - **Illustration**:
+   - <br><br>
 ![CO2 sensor](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/a3f2ba82-6617-4f2e-adda-5bda46d2e083)
 <img width="1259" alt="CO2 sensor" src="https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/a8a816a0-3f6a-47ff-b4b0-b323d647c95e">
