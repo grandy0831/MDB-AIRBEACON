@@ -113,9 +113,21 @@ This section of the README explains the implementation details for each componen
         pixels.show(); 
       }
    A complete working example of the code is [available here on GitHub](https://github.com/grandy0831/MDB-AIRBEACON/tree/main/CO2_Indicator).
-   - **Circuit Connection**: NeoPixel data line is connected to the Arduino's digital pin 6..
+   - **Circuit Connection**: NeoPixel data line is connected to the Arduino's digital pin 6.
    - **Illustration**:
   <br><br>
   ![CO2 Indicator green](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/d70f1fa3-394a-4bee-8aa9-a28dc941f69a)
   ![CO2 Indicator red](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/2e9138fc-b66a-42cb-9a37-bb06c5875230)
   ![CO2 Indicator](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/7006d507-12da-4ed3-a46e-3b7746c4adc3)
+
+#### 5. Buzzer:
+   - **Functionality**: Emits an audible alert when CO2 or air quality exceeds thresholds.
+   - **Code Snippet**:
+     ```cpp
+     if (co2 >= 1000 || sensorValue > 100) {
+    tone(buzzerPin, 3000);
+    } else {
+        noTone(buzzerPin);
+    }
+   A complete working example of the code is [available here on GitHub](https://github.com/grandy0831/MDB-AIRBEACON/tree/main/SHEM_buzzer_20231129002212).
+   - **Circuit Connection**: The buzzer is connected to the Arduino's digital pin 8.
