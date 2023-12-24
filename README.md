@@ -1,4 +1,4 @@
-# AirBeacon
+# 💡 AirBeacon
 
 ## Project Introduction
 
