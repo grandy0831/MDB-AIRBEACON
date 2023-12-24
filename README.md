@@ -125,9 +125,9 @@ This section of the README explains the implementation details for each componen
    - **Code Snippet**:
      ```cpp
      if (co2 >= 1000 || sensorValue > 100) {
-    tone(buzzerPin, 3000);
-    } else {
-        noTone(buzzerPin);
-    }
+        tone(buzzerPin, 3000);
+     } else {
+           noTone(buzzerPin);
+     }
    A complete working example of the code is [available here on GitHub](https://github.com/grandy0831/MDB-AIRBEACON/tree/main/SHEM_buzzer_20231129002212).
    - **Circuit Connection**: The buzzer is connected to the Arduino's digital pin 8.
