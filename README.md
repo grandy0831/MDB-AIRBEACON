@@ -29,7 +29,7 @@ AirBeacon is an indoor environment monitoring system designed to continuously mo
    - Connect the OLED display to the Arduino, ensuring the communication interface (I2C) matches.
    - Connect the LED lights and buzzer to the Arduino, setting the appropriate output pins.
    <br><br>
-<img width="1496" alt="Circuit Connection" src="https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/b471bb69-bd35-496a-a039-8694aa28ec27">
+  ![Circuit Connection](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/b471bb69-bd35-496a-a039-8694aa28ec27)
 <br><br>
 
 3. **Enclosure and Installation**:<br><br>
@@ -158,3 +158,8 @@ This section of the README explains the implementation details for each componen
    - **The code sets a threshold for CO2 levels (1000 ppm) and air quality (sensor value > 100).**
    - **When thresholds are exceeded, the NeoPixels blink red, and the buzzer is activated.**
    - **Under normal conditions, the NeoPixels are set to green, and the buzzer remains off.**
+  <br><br>
+  ![截屏2023-12-24 03 17 53](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/9a13f921-cfec-4b9e-829a-89a1bf0ad700)
+https://www.indoordoctor.com/blog/indoor-carbon-dioxide-levels-health/#:~:text=Carbon%20Dioxide%20Levels%20and%20Your,and%20stagnant%2C%20stale%2C%20stuffy%20air
+![image](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/67c1b247-1fb6-4bc5-8057-7f2f62f4c207)
+[Indoor Carbon Dioxide Levels and Your Health](https://www.indoordoctor.com/blog/indoor-carbon-dioxide-levels-health/#:~:text=Carbon%20Dioxide%20Levels%20and%20Your,and%20stagnant%2C%20stale%2C%20stuffy%20air)
