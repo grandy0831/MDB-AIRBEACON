@@ -18,10 +18,10 @@ AirBeacon is an indoor environment monitoring system designed to continuously mo
 ### Hardware Assembly:
 
 1. **Component Preparation**:
-   - SCD-30 Sensor: Used for measuring carbon dioxide, temperature, and humidity.
-   - MQ-135 Sensor: Used for monitoring harmful gases in the air.
-   - Arduino UNO: Serves as the main controller.
-   - OLED Display: Used for displaying environmental data.
-   - LED Lights and Buzzer: Used for the warning system.
+   - <b>SCD-30 Sensor<b>: Used for measuring carbon dioxide, temperature, and humidity.
+   - <b>MQ-135 Sensor<b>: Used for monitoring harmful gases in the air.
+   - <b>Arduino UNO<b>: Serves as the main controller.
+   - <b>OLED Display<b>: Used for displaying environmental data.
+   - <b>LED Lights and Buzzer<b>: Used for the warning system.
      
 2. **Circuit Connection**:
