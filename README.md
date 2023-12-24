@@ -118,6 +118,7 @@ This section of the README explains the implementation details for each componen
    - **Circuit Connection**: NeoPixel data line is connected to the Arduino's digital pin 6.
    - **Illustration**:
   <br><br>
+  ![LEDS_bb](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/40e062c5-083e-4397-81ed-4581e75720f9)
   ![CO2 Indicator green](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/d70f1fa3-394a-4bee-8aa9-a28dc941f69a)
   ![CO2 Indicator red](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/2e9138fc-b66a-42cb-9a37-bb06c5875230)
   ![CO2 Indicator](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/7006d507-12da-4ed3-a46e-3b7746c4adc3)
