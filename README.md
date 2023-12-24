@@ -34,6 +34,7 @@ AirBeacon is an indoor environment monitoring system designed to continuously mo
 
 3. **Enclosure and Installation**:
    - Design a suitable enclosure to house all electronic components while ensuring ventilation and sensor exposure.
+     Enclosure model downloads are [available here](https://github.com/grandy0831/MDB-AIRBEACON/tree/main/Enclosure%20model).
    - Ensure all wires and components are neatly installed to prevent circuit shorts or damage.
    - Use soldering to connect circuits and utilize insulating tape to ensure all wires are properly insulated.
      <br><br>
