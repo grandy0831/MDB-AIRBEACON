@@ -198,7 +198,7 @@ Follow these guidelines to ensure that the MQ135 sensor provides reliable data f
 
 - **Test Procedure**: To test the SCD-30 sensor's CO2 detection capabilities, gently exhale towards the sensor to introduce a rise in CO2 levels. Monitor the readings for an increase, which should trigger the corresponding alert systems if set thresholds are exceeded.
 
-- **Video Demonstration**: https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/c1a52855-8296-40af-b959-0d3acae59b36
+- **Video Demonstration**: [Watch the CO2 Detection Test Video](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/c1a52855-8296-40af-b959-0d3acae59b36)
 
 - **Video Description**: The video demonstrates how exhaling towards the SCD-30 sensor causes a noticeable increase in CO2 readings, observable on the OLED display. It showcases how the CO2 concentration rises above 1000 PPM, at which point the system's LED changes from green to red, and the buzzer sounds an alarm. This confirms the effective monitoring of CO2 levels by the AirBeacon system.
 
