@@ -51,7 +51,7 @@ AirBeacon is an indoor environment monitoring system designed to continuously mo
 
 ### Arduino Programming:
 
-This section of the README explains the implementation details for each component in the AirBeacon project, including the CO2 sensor, air quality sensor, LEDs, OLED display, and buzzer.<br><br>
+This section of the README explains the implementation details for each component in the AirBeacon project, including the CO2 sensor, air quality sensor, LEDs, OLED display, and buzzer.<br>
    - Write code to read data from the SCD-30 and MQ-135 sensors.
    - Set thresholds to trigger the LED lights and buzzer when carbon dioxide levels exceed certain levels.
    - Write code to control the real-time data display on the OLED screen.
