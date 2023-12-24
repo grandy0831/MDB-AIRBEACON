@@ -94,10 +94,8 @@ This section of the README explains the implementation details for each componen
       } else {
           setGreen();
       }
-   <br>
-      ```cpp
-      
-        void blinkRed() {
+     
+     void blinkRed() {
         for (int i = 0; i < NUMPIXELS; i++) {
           pixels.setPixelColor(i, pixels.Color(255, 0, 0)); // Set LEDs to red
         }
