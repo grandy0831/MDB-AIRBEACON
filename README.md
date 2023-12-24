@@ -36,13 +36,13 @@ AirBeacon is an indoor environment monitoring system designed to continuously mo
    - Design a suitable enclosure to house all electronic components while ensuring ventilation and sensor exposure.<br>
      (Enclosure model downloads are [available here](https://github.com/grandy0831/MDB-AIRBEACON/tree/main/Enclosure%20model).)
    - Ensure all wires and components are neatly installed to prevent circuit shorts or damage.
-     <br>
+     <br><br>
      ![29221702321287_ pic](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/a08184a6-82f4-4422-96d6-ce30b8a37b35)
      <br>
      ![29231702321290_ pic](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/7ea0ea1f-82ae-45f0-94ad-8523640efa74)
      <div align="center">（Enclosure design）</div>
-     <br><br>
-   - Use soldering to connect circuits and utilize insulating tape to ensure all wires are properly insulated.<br>
+     <br>
+   - Use soldering to connect circuits and utilize insulating tape to ensure all wires are properly insulated.<br><br>
      ![29201702321282_ pic](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/9b92f6d2-17a1-4249-8711-e01570a1efd5)
      ![29211702321284_ pic](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/ecd555f1-3b4a-4b56-b146-04fdeeadc9e2)
      <br><br>
