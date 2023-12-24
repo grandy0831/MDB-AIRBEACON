@@ -174,3 +174,10 @@ The following are proposed enhancements to improve the functionality and user ex
 - **Wireless Connectivity**: Implement wireless connectivity options such as Wi-Fi or Bluetooth to enable remote monitoring of air quality data. This feature would allow users to receive updates and alerts on their mobile devices or computers, enhancing the usability of the AirBeacon system for smart home applications or office settings.
 
 These enhancements aim to make the AirBeacon more interactive and user-friendly, while also extending its capabilities for remote air quality management.
+
+## Reference Projects
+
+The AirBeacon project was inspired by and references the following projects and resources:
+
+- **SCD30 on Arduino**: A project demonstrating the basics of interfacing the SCD-30 sensor with Arduino boards. [GitHub Link](https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library)
+- **MQ135 Air Quality Sensor**：IoT Based Air Quality Index Monitoring with ESP8266 & MQ135. [Web Link](https://how2electronics.com/iot-air-quality-index-monitoring-esp8266/)
