@@ -40,6 +40,6 @@ AirBeacon is an indoor environment monitoring system designed to continuously mo
      ![29221702321287_ pic](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/a08184a6-82f4-4422-96d6-ce30b8a37b35)
      <br>
      ![29231702321290_ pic](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/7ea0ea1f-82ae-45f0-94ad-8523640efa74)
-     （Enclosure design）
+     <div align="center">（Enclosure design）</div>
      <br><br>
 
