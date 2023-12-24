@@ -56,7 +56,7 @@ This section of the README explains the implementation details for each componen
    - Set thresholds to trigger the LED lights and buzzer when carbon dioxide levels exceed certain levels.
    - Write code to control the real-time data display on the OLED screen.
 
-1. **CO2 Sensor (SCD-30)**:
+#### CO2 Sensor (SCD-30):
    - **Functionality**: Measures CO2, temperature, and humidity using the `SparkFun_SCD30_Arduino_Library`.
    - **Code Snippet**:
      ```cpp
@@ -65,4 +65,4 @@ This section of the README explains the implementation details for each componen
        float temperature = airSensor.getTemperature();
        float humidity = airSensor.getHumidity();
      }
-2. 
+
