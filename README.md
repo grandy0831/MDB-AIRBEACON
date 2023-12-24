@@ -151,3 +151,4 @@ This section of the README explains the implementation details for each componen
    - **Illustration**:
   <br><br>
  ![Circuit Connection](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/824c53e0-642c-4098-b058-3b8852e438f0)
+ ![29251702321293_ pic](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/0314b76f-02be-4f6e-a5d3-12df158bf167)
