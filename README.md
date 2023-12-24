@@ -72,4 +72,15 @@ This section of the README explains the implementation details for each componen
     ![CO2 sensor](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/6a3a122f-6bc7-4bfe-8e6f-0fef0d9ecde9)
     ![CO2 sensor](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/e3a1ff7e-e53a-47a0-bff0-1d29903495fc)
 
-
+#### 2. Air Quality Sensor (MQ-135):
+   - **Functionality**: Reads air quality indices using the MQ135.h library.
+   - **Code Snippet**:
+     ```cpp
+     int sensorValue = analogRead(MQ135_SENSOR_PIN);
+     float ppm = gasSensor.getPPM();
+   A complete working example of the code is [available here on GitHub](https://github.com/grandy0831/MDB-AIRBEACON/tree/main/Air_quality_sensor).
+   - **Circuit Connection**: The MQ-135 sensor's analog output is connected to the Arduino's A0 pin.
+   - **Illustration**:
+  <br><br>
+  ![Air quality sensor](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/defef883-4890-49e0-9b42-f728dae3a0e4)
+  ![Air quality sensor](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/4829956c-aa59-4f30-810c-9a67e385e632)
