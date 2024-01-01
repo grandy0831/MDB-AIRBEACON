@@ -162,7 +162,8 @@ This section of the README explains the implementation details for each componen
 ![截屏2023-12-24 03 17 53](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/9a13f921-cfec-4b9e-829a-89a1bf0ad700)<br>
 [Indoor Carbon Dioxide Levels and Your Health](https://www.indoordoctor.com/blog/indoor-carbon-dioxide-levels-health/#:~:text=Carbon%20Dioxide%20Levels%20and%20Your,and%20stagnant%2C%20stale%2C%20stuffy%20air).
   <br><br>
-![截屏2023-12-24 03 31 04](https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/f79407ec-786b-49ce-a702-e0c0118efae5)<br>
+<img width="692" alt="AQI" src="https://github.com/grandy0831/MDB-AIRBEACON/assets/140076679/05017576-864f-4a8a-a03b-b2a75737431d">
+<br>
 [AQI bands, with health advice for each](https://en.wikipedia.org/wiki/Air_quality_index).
 
 ## Testing and Validation
